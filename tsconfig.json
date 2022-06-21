@@ -4,6 +4,7 @@
     "outDir": "build",
     "target": "ES6",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "allowJs": true
   }
 }
