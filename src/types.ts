@@ -50,13 +50,14 @@ function playerDisplay(name: string) {}
 //   return name;
 // }
 // const nico = playerMaker("nico");
-// nico.name;
+// nico.age;
 
 // function playerMaker(name: string): Player {
 //   return {
 //     name,
 //   };
 //}
+// nico.age = 12;
 
 const playerMaker = (name: string): Player => ({ name });
 const nico = playerMaker("nico");
