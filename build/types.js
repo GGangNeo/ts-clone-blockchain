@@ -24,10 +24,10 @@ const player1 = {};
 if (player1.age && player1.age < 10) {
 }
 const p1 = {
-name: "nico",
+    name: "nico",
 };
 const p2 = {
-  age: 11,
+    age: 11,
 };
 /**
  * function
