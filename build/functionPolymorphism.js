@@ -12,9 +12,6 @@ const superPrint = (arr) => {
 };
 superPrint([1, 2, 3]);
 superPrint([false, true]);
-// type doesn't have string array call signature, use generic
-superPrint(['1']);
-superPrint([1, 2, true, 'string']);
 const superReturn = (arr) => arr[0];
 const fpA = superReturn([1, 2, 3]);
 const fpB = superReturn([true, true, 3]);

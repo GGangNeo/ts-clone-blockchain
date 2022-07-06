@@ -1,6 +1,6 @@
 "use strict";
 //Tuple
-const t2player = ["nico", 1, true];
+const t2player = ['nico', 1, true];
 // t2player[0]=1;
 // const t2player: readonly [string, number,boolean] = ['nico',1,true]
 // playerTuple[0]='hello'
@@ -13,7 +13,7 @@ t2c + t2d;
 // Force check the variable type.
 let t2e;
 //t2e.toUpperCase();
-if (typeof t2e === "string") {
+if (typeof t2e === 'string') {
     t2e.toUpperCase();
 }
 // Function do not return, except for exceptions. type of never return exceptions.
@@ -22,10 +22,10 @@ function hello() {
     throw new Error();
 }
 function hello2(name) {
-    if (typeof name === "string") {
+    if (typeof name === 'string') {
         console.log(name);
     }
-    else if (typeof name === "number") {
+    else if (typeof name === 'number') {
         console.log(name + 1);
     }
     else {

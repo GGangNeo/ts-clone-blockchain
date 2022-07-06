@@ -21,8 +21,9 @@ const superPrint: SuperPrint = (arr) => {
 superPrint([1, 2, 3]);
 superPrint([false, true]);
 // type doesn't have string array call signature, use generic
-superPrint(['1']);
-superPrint([1, 2, true, 'string']);
+// error
+// superPrint(['1']);
+// superPrint([1, 2, true, 'string']);
 
 type SuperReturn = {
   <T>(arr: T[]): T;
