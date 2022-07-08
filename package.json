@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node build/blockChain.js",
+    "dev":"nodemon --exec ts-node src/blockChain.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/GGangNeo/ts-clone-blockchain#readme",
   "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
   },
   "main": "index.js"

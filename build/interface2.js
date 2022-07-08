@@ -52,4 +52,21 @@ var interface2;
         }
     }
     const k2 = new Kim2('Kim');
+    /*
+     * interface as a type, parameters and return not use new
+     */
+    function makeUser(user) {
+        return {
+            name: user.name,
+            age: user.age,
+            sayHi: user.sayHi,
+            getInfo: user.getInfo,
+        };
+    }
+    const aUser = makeUser({
+        name: 'k',
+        age: 1,
+        sayHi: (name) => `Hi ${name}`,
+        getInfo: () => 'info',
+    });
 })(interface2 || (interface2 = {}));
