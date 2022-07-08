@@ -1,1 +1,1 @@
-import { exit, init } from './myPackage';
+// import { exit, init } from './myPackage';
